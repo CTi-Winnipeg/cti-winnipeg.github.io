@@ -1,6 +1,7 @@
 ---
 layout: post
 title: First post!
+author: Richard Bennett
 ---
 
 "To the _innovation station_!"
@@ -19,3 +20,5 @@ Or should I say “Buyologists?”
 
 
 ;)
+
+Richard B.
