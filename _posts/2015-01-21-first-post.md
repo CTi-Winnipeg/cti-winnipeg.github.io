@@ -4,8 +4,8 @@ title: First post!
 author: Richard Bennett
 ---
 
-"To the _innovation station_!"
-=======================
+# "To the _innovation station_!"
+
 
 Although we’re serious about what we do, this phrase is used more tongue-in-cheek than anything.
 
@@ -17,8 +17,8 @@ Now, we’re lean, mean, innovation machines.
 LOL
 
 Or should I say “Buyologists?”
-
-
-;)
-
+  
+  
+;)  
+  
 Richard B.
