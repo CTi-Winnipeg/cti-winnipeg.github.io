@@ -108,8 +108,9 @@ article.post > p {
   -ms-transition: opacity 300ms ease-in-out;
   -o-transition: opacity 300ms ease-in-out;
   transition: opacity 300ms ease-in-out;
-  opacity: 0.85;
+  opacity: 0.65;
 }
 article.post > p:hover {
   opacity: 1;
+  border-left: 0.1em solid #e5e5e5;
 }
