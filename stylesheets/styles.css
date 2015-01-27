@@ -59,7 +59,7 @@ section > ul li a.title {
 }
 
 footer {
-  padding: 10em 0em;
+  padding-bottom: 10em;
   text-align: center;
   opacity: 0.55;
   -webkit-transition: all 300ms ease-in-out;
