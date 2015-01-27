@@ -94,6 +94,11 @@ article.post h1 {
   font-family: "futura-pt", "HelveticaNeue", "Roboto", sans-serif;
   font-weight: 300;
   font-size: 3.5em;
-  padding: 10em 0em;
+  padding: 4em 0em;
   text-align: center;
+}
+
+article.post > p {
+  padding: 3em 20%;
+  padding-top: 0em;
 }
