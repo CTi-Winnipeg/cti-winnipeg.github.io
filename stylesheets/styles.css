@@ -80,3 +80,20 @@ footer p {
 footer small {
   font-size: 0.85em;
 }
+
+
+/* Layout-specific styles */
+
+/* post */
+article.post {
+  padding-bottom: 10em;
+  
+}
+
+article.post h1 {
+  font-family: "futura-pt", "HelveticaNeue", "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 3.5em;
+  padding: 10em 0em;
+  text-align: center;
+}
