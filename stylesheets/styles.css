@@ -31,3 +31,51 @@ header h2 {
   margin-bottom: 1em;
 }
 
+section {
+  padding: 10em 0em;
+  text-align: center;
+}
+
+section > ul {
+  list-style: none;
+}
+
+section > ul li {
+  margin-bottom: 5em;
+  padding: 2em 0em;
+}
+
+section > ul li:first-child a.title {
+  font-size: 3em;
+  text-decoration: none;
+  color: #ee3727
+}
+
+section > ul li a.title {
+  font-family: "futura-pt", "HelveticaNeue", "Roboto", sans-serif;
+  font-size: 2.5em;
+  text-decoration: none;
+  color: #ee3727
+}
+
+footer {
+  padding: 10em 0em;
+  text-align: center;
+  opacity: 0.55;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+footer:hover {
+  opacity: 1;
+}
+
+footer p {
+  padding: 0.5em 0em;
+}
+
+footer small {
+  font-size: 0.85em;
+}
