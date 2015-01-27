@@ -115,3 +115,18 @@ article.post > p:hover {
   opacity: 1;
   border-left: 0.1em solid #e5e5e5;
 }
+
+nav.bottom {
+  font-size: 1.37em;
+  line-height: 1.55em;
+  letter-spacing: 0.02em;
+  padding: 2em 10%;
+  padding-top: 1em;
+}
+
+nav.bottom a:first-child {
+  float: left;
+}
+nav.bottom a:last-child {
+  float: right;
+}
