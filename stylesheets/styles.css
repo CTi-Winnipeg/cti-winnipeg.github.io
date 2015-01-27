@@ -87,7 +87,6 @@ footer small {
 /* post */
 article.post {
   padding-bottom: 10em;
-  
 }
 
 article.post h1 {
@@ -99,6 +98,18 @@ article.post h1 {
 }
 
 article.post > p {
-  padding: 3em 20%;
-  padding-top: 0em;
+  font-size: 1.37em;
+  line-height: 1.55em;
+  letter-spacing: 0.02em;
+  padding: 2em 10%;
+  padding-top: 1em;
+  -webkit-transition: opacity 300ms ease-in-out;
+  -moz-transition: opacity 300ms ease-in-out;
+  -ms-transition: opacity 300ms ease-in-out;
+  -o-transition: opacity 300ms ease-in-out;
+  transition: opacity 300ms ease-in-out;
+  opacity: 0.85;
+}
+article.post > p:hover {
+  opacity: 1;
 }
