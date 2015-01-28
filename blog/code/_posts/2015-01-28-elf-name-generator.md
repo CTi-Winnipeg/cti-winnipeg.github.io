@@ -42,7 +42,7 @@ The shake + alert box was all well and good.  I was generating names like mad.  
 
 My girl enjoyed them a lot.  Maybe in an unhealthy way.
 
-So I naturally had to appease her humor by sending them to her contstantly.  To make this easier, I added a bit functionality to copy the name to the device clipboard instead of just dismissing the alert.
+So I naturally had to appease her humor by sending them to her constantly.  To make this easier, I added a bit functionality to copy the name to the device clipboard instead of just dismissing the alert.
 
 Now, you can dismiss AND copy.  Shazam.
 
