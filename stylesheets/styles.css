@@ -7,9 +7,14 @@
  * 
  */
 
+html {
+  height: 100%;
+}
+
 body {
   color: #373737;
   font-family: "freight-display-pro", "Times New Roman", "Times", serif;
+  height: 100%;
 }
 
 a {
@@ -35,6 +40,7 @@ header {
   font-weight: 300;
   padding: 14em 0em;
   text-align: center;
+  height: 80%;
 }
 header.index {
   border-bottom: 0.1em solid #eee;
