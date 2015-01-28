@@ -96,6 +96,7 @@ header.post {
 }
 
 article.post {
+  padding-top: 4em;
   padding-bottom: 10em;
 }
 
