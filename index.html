@@ -35,6 +35,7 @@
         {% for post in site.posts %}
           <li>
             <a href="{{ post.url }}" class="title">{{ post.title }}</a>
+            <span class="category">in {{ post.categories }}</span>
           </li>
         {% endfor %}
       </ul>
