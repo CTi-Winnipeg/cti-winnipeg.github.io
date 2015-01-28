@@ -40,7 +40,7 @@ header {
   font-family: "futura-pt", "HelveticaNeue", "Roboto", sans-serif;
   font-weight: 300;
   text-align: center;
-  height: 95%;
+  height: 100%;
   /* Flex box vertical center layout */
   display: -webkit-box;
   display: -moz-box;
@@ -109,6 +109,7 @@ header h1 {
 
 header h2 {
   font-size: 1.25em;
+  font-weight: 300;
 }
 
 section {
