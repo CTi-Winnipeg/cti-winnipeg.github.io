@@ -38,7 +38,7 @@ a:hover {
 header {
   font-family: "futura-pt", "HelveticaNeue", "Roboto", sans-serif;
   font-weight: 300;
-  padding: 14em 0em;
+  /*padding: 14em 0em;*/
   text-align: center;
   height: 80%;
 }
