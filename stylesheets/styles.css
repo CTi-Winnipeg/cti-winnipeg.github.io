@@ -262,13 +262,17 @@ article.meta {
 
 article.meta .author {
   font-size: 1.7em;
+  font-weight: 700;
   line-height: 1.9em;
-  margin: 1em 10%;
+  margin: 1em 10% 0.4em 10%;
 }
 article.meta .date {
   font-size: 1.1em;
   line-height: 1.35em;
-  margin: 1em 10%;
+  margin: 0em 10% 1em 10%;;
+  font-family: "futura-pt", "HelveticaNeue", "Roboto", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
 nav.bottom {
