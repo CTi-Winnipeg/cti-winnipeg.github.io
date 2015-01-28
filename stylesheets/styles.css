@@ -55,10 +55,12 @@ section > ul li {
   -ms-transition: all 300ms ease-in-out;
   -o-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
+  border-bottom: 0.1em solid #fff;
 }
 
 section > ul li:hover {
   opacity: 1;
+  border-bottom: 0.1em solid #eee;
 }
 
 section > ul li:first-child a.title {
