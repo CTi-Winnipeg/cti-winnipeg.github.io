@@ -217,8 +217,9 @@ article.post h1, article.post h2, article.post h3, article.post h4, article.post
 article.post p, article.post pre, article.post ul, article.post ol {
   font-size: 1.37em;
   line-height: 1.55em;
-  padding: 2em 10%;
-  padding-top: 1em;
+  padding: 0em 10%;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
 }
 
 blockquote {
@@ -257,9 +258,6 @@ article.post p {
   font-size: 1.37em;
   line-height: 1.55em;
   letter-spacing: 0.02em;
-  padding: 0em 10%;
-  margin-top: 1em;
-  margin-bottom: 2em;
   -webkit-transition: all 300ms ease-in-out;
   -moz-transition: all 300ms ease-in-out;
   -ms-transition: all 300ms ease-in-out;
