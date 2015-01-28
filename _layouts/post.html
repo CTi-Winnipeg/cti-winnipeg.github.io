@@ -2,19 +2,23 @@
 layout: default
 ---
 
-<header>
-  <h1>{{ page.title }}</h1>
+<header class="post">
+  <div class="wrapper">
+    <h1>{{ page.title }}</h1>
+  </div>
 </header>
-<article class="post">
-  {{content}}
-</article>
-<nav class="bottom">
-  <a href="https://cti-winnipeg.github.io/">Home</a>
-  <a href="{{site.root}}">Next post</a>
-</nav>
-<footer>
-  <p></p><p></p>
-  <p><small>Canadian Tire Innovations, Winnipeg</small></p>
-  <p><small><a href="https://github.com/CTi-Winnipeg">View our GitHub Profile</a></small></p>
-</footer>
+<div class="wrapper">
+  <article class="post">
+    {{content}}
+  </article>
 
+  <nav class="bottom">
+    <a href="https://cti-winnipeg.github.io/">Home</a>
+    <a href="{{site.root}}">Next post</a>
+  </nav>
+  <footer>
+    <p></p><p></p>
+    <p><small>Canadian Tire Innovations, Winnipeg</small></p>
+    <p><small><a href="https://github.com/CTi-Winnipeg">View our GitHub Profile</a></small></p>
+  </footer>
+</div>

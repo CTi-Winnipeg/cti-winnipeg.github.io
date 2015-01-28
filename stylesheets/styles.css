@@ -85,6 +85,11 @@ footer small {
 /* Layout-specific styles */
 
 /* post */
+
+header.post {
+  background-color: #efefef;
+}
+
 article.post {
   padding-bottom: 10em;
 }
