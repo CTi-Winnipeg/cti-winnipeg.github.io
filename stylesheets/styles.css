@@ -93,9 +93,10 @@ header > div.wrapper {
 
 header.index > div.wrapper {
   display: inline-block;
-  padding: 3em;
+  padding: 10%;
   border: 1em solid #fff;
   background-color: rgba(255,255,255,0.95);
+  width: initial;
 }
 
 header h1 {
@@ -105,7 +106,6 @@ header h1 {
 
 header h2 {
   font-size: 1.25em;
-  margin-bottom: 1em;
 }
 
 section {
