@@ -154,10 +154,15 @@ section.pagelist > ul li .categories {
   font-family: "futura-pt", "HelveticaNeue", "Roboto", sans-serif;
   font-weight: 300;
   margin-top: 1em;
+}
+section.pagelist > ul li .categories .category {
   text-transform: capitalize;
 }
 section.pagelist > ul li .categories .category:after {
   content: ', ';
+}
+section.pagelist > ul li .categories .category:last-child:before {
+  content: 'and ';
 }
 section.pagelist > ul li .categories .category:last-child:after {
   content: '';
