@@ -12,6 +12,10 @@ body {
   font-family: "freight-display-pro", "Times New Roman", "Times", serif;
 }
 
+a {
+  color: #373737;
+}
+
 .wrapper {
   width: 960px;
   margin: 0px auto;
