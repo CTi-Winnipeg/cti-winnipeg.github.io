@@ -294,9 +294,15 @@ nav.bottom a.previous {
   float: left;
   position: absolute;
   left: 0px;
+  top: 1.2em;
+  width: 30%;
+  text-align: left;
 }
 nav.bottom a.next {
   float: right;
   position: absolute;
   right: 0px;
+  top: 1.2em;
+  width: 30%;
+  text-align: right;
 }
