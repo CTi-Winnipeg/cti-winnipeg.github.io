@@ -149,6 +149,8 @@ blockquote {
   padding-top: 0em;
 }
 blockquote > p {
+  font-family: "futura-pt", "HelveticaNeue", "Roboto", sans-serif;
+  font-weight: 300;
   padding: 0em !important;
 }
 
@@ -188,6 +190,11 @@ article.post > p {
 article.post > p:hover {
   opacity: 1;
   border-left: 0.1em solid #e5e5e5;
+}
+
+article.post > p > img {
+  width: 100%;
+  height: auto;
 }
 
 nav.bottom {
