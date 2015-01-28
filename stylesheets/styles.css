@@ -112,17 +112,17 @@ header h2 {
   font-weight: 300;
 }
 
-section {
+section.pagelist {
   padding: 10em 0em;
   text-align: center;
 }
 
 
-section > ul {
+section.pagelist > ul {
   list-style: none;
 }
 
-section > ul li {
+section.pagelist > ul li {
   margin: 3em 0em;
   padding: 2em 0em;
   opacity: 0.45;
@@ -134,18 +134,18 @@ section > ul li {
   border-bottom: 0.1em solid #fff;
 }
 
-section > ul li:hover {
+section.pagelist > ul li:hover {
   opacity: 1;
   border-bottom: 0.1em solid #eee;
 }
 
-section > ul li:first-child a.title {
+section.pagelist > ul li:first-child a.title {
   font-size: 3em;
   text-decoration: none;
   /*color: #ee3727;*/
 }
 
-section > ul li a.title {
+section.pagelist > ul li a.title {
   /*font-family: "futura-pt", "HelveticaNeue", "Roboto", sans-serif;*/
   font-weight: 700;
   font-size: 2.25em;
