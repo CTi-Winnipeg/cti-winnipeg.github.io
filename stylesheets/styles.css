@@ -7,11 +7,14 @@
  * 
  */
 
+body {
+  color: #373737;
+  font-family: "freight-display-pro", "Times New Roman", "Times", serif;
+}
+
 .wrapper {
   width: 960px;
   margin: 0px auto;
-  color: #373737;
-  font-family: "freight-display-pro", "Times New Roman", "Times", serif;
 }
 
 header {
