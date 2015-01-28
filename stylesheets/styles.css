@@ -258,8 +258,8 @@ article.post > p > img {
 }
 
 article.meta {
-  padding-top: 4em;
-  padding-bottom: 6em;
+  padding: 2em 10%;
+  padding-top: 1em;
 }
 
 article.meta .author {
