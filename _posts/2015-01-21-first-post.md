@@ -15,6 +15,6 @@ Ask our peers in the DevOps team what we do, and we get a lot of blank stares an
 We have a long road ahead of us.  Uncovering the mysteries of "descience" (design + science, LOL), and help keep our organization moving quickly into the future.
   
   
-Until next time,
+Until next time,  
   
-Richard B.
+Richard B.  
