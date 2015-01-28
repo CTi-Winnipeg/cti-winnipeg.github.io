@@ -2,6 +2,7 @@
 layout: post
 title: Rainbows, Unicorns, Leprechauns, and Innovation
 author: Richard Bennett
+author_email: richard.bennett.cti@gmail.com
 feature_img: //cti-winnipeg.github.io/img/default-feature.jpg
 ---
 
@@ -14,6 +15,5 @@ Ask our peers in the DevOps team what we do, and we get a lot of blank stares an
 
 We have a long road ahead of us.  Uncovering the mysteries of "descience" (design + science, LOL), and help keep our organization moving quickly into the future.
   
-  
 Until next time,  
-Richard B.  
+*Richard B.*
