@@ -91,6 +91,13 @@ header > div.wrapper {
   align-self: auto;
 }
 
+header.index > div.wrapper {
+  display: inline-block;
+  padding: 3em;
+  border: 1em solid #fff;
+  background-color: rgba(255,255,255,0.95);
+}
+
 header h1 {
   font-size: 3.5em;
   margin-bottom: 0.5em;
