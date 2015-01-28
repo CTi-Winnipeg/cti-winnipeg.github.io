@@ -14,14 +14,14 @@ layout: default
 </div>
   <article class="meta">
     <div class="wrapper">
-      <div class="author"><a href="mailto:{{ page.author_email }}">{{ page.author }}</a></div>
-      <div class="date">{{ page.date }}</div>
+      <div class="author">{% if page.author_email %}<a href="mailto:{{ page.author_email }}">{% endif %}{{ page.author }}{% if page.author_email %}</a>{% endif %}</div>
+      <div class="date">{{ page.date | date_to_string }}</div>
     </div>
   </article>
 <div class="wrapper">
   <nav class="bottom">
     <a href="https://cti-winnipeg.github.io/">Home</a>
-    <a href="{{site.root}}">Next post</a>
+    <a href="{{ page.next }}">Next post</a>
   </nav>
   <footer>
     <p></p><p></p>
