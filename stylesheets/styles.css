@@ -279,6 +279,8 @@ nav.bottom {
   letter-spacing: 0.02em;
   padding: 2em 10%;
   padding-top: 1em;
+  text-align: center;
+  position: relative;
 }
 
 nav.bottom a {
@@ -288,9 +290,13 @@ nav.bottom a {
   text-decoration-style: dotted;
 }
 
-nav.bottom a:first-child {
+nav.bottom a.previous {
   float: left;
+  position: absolute;
+  left: 0px;
 }
-nav.bottom a:last-child {
+nav.bottom a.next {
   float: right;
+  position: absolute;
+  right: 0px;
 }

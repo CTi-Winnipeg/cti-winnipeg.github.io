@@ -12,16 +12,19 @@ layout: default
     {{content}}
   </article>
 </div>
+  {% if page.author %}
   <article class="meta">
     <div class="wrapper">
       <div class="author">{% if page.author_email %}<a href="mailto:{{ page.author_email }}">{% endif %}{{ page.author }}{% if page.author_email %}</a>{% endif %}</div>
       <div class="date">{{ page.date | date_to_string }}</div>
     </div>
   </article>
+  {% endif %}
 <div class="wrapper">
   <nav class="bottom">
     <a href="https://cti-winnipeg.github.io/">Home</a>
-    {% if page.next %}<a href="{{ page.next.url }}">Next post</a>{% endif %}
+    {% if page.next %}<a href="{{ page.next.url }}" class="next">{{ page.next.title }}</a>{% endif %}
+    {% if page.previous %}<a href="{{ page.previous.url }}" class="previous">{{ page.previous.url }}</a>{% endif %}
   </nav>
   <footer>
     <p></p><p></p>
