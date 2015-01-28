@@ -72,9 +72,9 @@ header {
   align-items: center;
 }
 header.index {
-  background-image: url('../img/wpg_skyline.jpg');
+  background-image: url('../img/wpg_skyline35.jpg');
   background-size: cover;
-  background-position: center bottom;
+  background-position: center center;
   border-bottom: 0.1em solid #eee;
 }
 
