@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First post!
+title: Rainbows, Unicorns, Leprechauns, and Innovation
 author: Richard Bennett
 feature_img: //cti-winnipeg.github.io/img/default-feature.jpg
 ---
