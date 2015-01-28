@@ -14,6 +14,15 @@ body {
 
 a {
   color: #373737;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  text-decoration: none;
+}
+a:hover {
+  color: #ee3727;
 }
 
 .wrapper {
