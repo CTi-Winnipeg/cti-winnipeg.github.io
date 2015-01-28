@@ -11,6 +11,10 @@ layout: default
   <article class="post">
     {{content}}
   </article>
+  <article class="meta">
+    <div class="author"><a href="mailto:{{ page.author_email }}">{{ page.author }}</a></div>
+    <div class="date">{{ page.date }}</div>
+  </article>
   <nav class="bottom">
     <a href="https://cti-winnipeg.github.io/">Home</a>
     <a href="{{site.root}}">Next post</a>

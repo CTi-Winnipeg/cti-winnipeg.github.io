@@ -257,6 +257,20 @@ article.post > p > img {
   height: auto;
 }
 
+article.meta {
+  padding-top: 4em;
+  padding-bottom: 6em;
+}
+
+article.meta .author {
+  font-size: 1.7em;
+  line-height: 1.9em;
+}
+article.meta .author {
+  font-size: 0.9em;
+  line-height: 1.1em;
+}
+
 nav.bottom {
   font-size: 1.37em;
   line-height: 1.55em;
