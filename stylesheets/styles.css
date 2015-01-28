@@ -146,6 +146,7 @@ blockquote {
   font-style: italic;
   line-height: 1.55em;
   padding: 2em 20%;
+  padding-top: 0em;
 }
 blockquote > p {
   padding: 0em !important;
