@@ -147,7 +147,7 @@ blockquote {
   padding: 2em 20%;
 }
 blockquote > p {
-  padding: 0em;
+  padding: 0em !important;
 }
 
 article.post h1 {
