@@ -16,5 +16,4 @@ We have a long road ahead of us.  Uncovering the mysteries of "descience" (desig
   
   
 Until next time,  
-  
 Richard B.  
