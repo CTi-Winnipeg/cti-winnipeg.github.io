@@ -177,6 +177,7 @@ nav.bottom a {
   font-family: "futura-pt", "HelveticaNeue", "Roboto", sans-serif;
   font-weight: 700;
   font-size: 0.9em;
+  text-decoration-style: dotted;
 }
 
 nav.bottom a:first-child {
