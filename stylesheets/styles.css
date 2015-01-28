@@ -142,8 +142,9 @@ article.post p, article.post pre, article.post ul, article.post ol {
 }
 
 blockquote {
-  font-size: 1.45em;
-  line-height: 1.6em;
+  font-size: 1.37em;
+  font-style: italic;
+  line-height: 1.55em;
   padding: 2em 20%;
 }
 blockquote > p {
