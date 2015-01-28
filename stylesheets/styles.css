@@ -93,6 +93,8 @@ header.post {
   font-family: "futura-pt", "HelveticaNeue", "Roboto", sans-serif !important;
   font-weight: 300;
   background-color: #efefef;
+  background-size: cover;
+  background-position: center center;
 }
 
 article.post {
