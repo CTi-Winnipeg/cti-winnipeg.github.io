@@ -153,6 +153,8 @@ section.pagelist > ul li a.title {
 section.pagelist > ul li .categories {
   font-family: "futura-pt", "HelveticaNeue", "Roboto", sans-serif;
   margin-top: 1em;
+  text-transform: capitalize;
+  opacity: 0.65;
 }
 section.pagelist > ul li .categories .category:after {
   content: ', ';
