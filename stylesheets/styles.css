@@ -168,6 +168,9 @@ section.pagelist > ul li .categories .category:last-child:before {
 section.pagelist > ul li .categories .category:last-child:after {
   content: '';
 }
+section.pagelist > ul li .categories .category:first-child:before {
+  content: '';
+}
 
 footer {
   padding-bottom: 10em;
