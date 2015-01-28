@@ -138,7 +138,8 @@ article.post h1, article.post h2, article.post h3, article.post h4, article.post
 article.post p, article.post pre, article.post ul, article.post ol {
   font-size: 1.37em;
   line-height: 1.55em;
-  padding: 1em 10%;
+  padding: 2em 10%;
+  padding-top: 1em;
 }
 
 blockquote {
