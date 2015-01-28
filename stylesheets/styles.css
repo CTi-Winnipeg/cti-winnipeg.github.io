@@ -173,6 +173,12 @@ nav.bottom {
   padding-top: 1em;
 }
 
+nav.bottom a {
+  font-family: "futura-pt", "HelveticaNeue", "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 0.9em;
+}
+
 nav.bottom a:first-child {
   float: left;
 }
