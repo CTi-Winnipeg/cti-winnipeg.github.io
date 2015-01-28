@@ -277,6 +277,10 @@ article.post > p > img {
   height: auto;
 }
 
+article.post ul li {
+  margin: 1em 0em 2em 0em;
+}
+
 article.meta {
   padding: 2em 10% 10em 10%;
 }
