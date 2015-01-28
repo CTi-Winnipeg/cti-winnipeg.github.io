@@ -3,7 +3,7 @@ layout: post
 title: Rainbows, Unicorns, Leprechauns, and Innovation
 author: Richard Bennett
 author_email: richard.bennett.cti@gmail.com
-feature_img: //cti-winnipeg.github.io/img/default-feature.jpg
+feature_img: url('//cti-winnipeg.github.io/img/default-feature.jpg')
 ---
 
 # "To the _innovation station_!"
