@@ -277,7 +277,21 @@ article.post > p:hover {
 article.post > p > img {
   width: 100%;
   height: auto;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  opacity: 1 !important;
 }
+article.post > p > img:hover {
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
 
 article.post ul li {
   margin: 0.5em 0em 1em 0em;
