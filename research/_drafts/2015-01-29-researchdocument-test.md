@@ -2,7 +2,7 @@
 layout: post
 title: Test post for styles
 author: Richard Bennett
-feature_img: //cti-winnipeg.github.io/img/default-feature.jpg
+feature_img: url('//cti-winnipeg.github.io/img/default-feature.jpg')
 ---
 
 # Header 1
