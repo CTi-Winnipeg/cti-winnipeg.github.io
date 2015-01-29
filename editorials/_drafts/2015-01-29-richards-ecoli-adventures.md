@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Richard's E.Coli Adventures
+title: E.Coli Adventures in Winnipeg
 author: Richard Bennett
 author_email: richard.bennett.cti@gmail.com
 feature_tint: dark
