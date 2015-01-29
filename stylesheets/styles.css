@@ -207,6 +207,11 @@ header.post {
   background-position: center center;
 }
 
+header.post.dark {
+  background-color: #373737;
+  color: #f5f5f5;
+}
+
 article.post {
   padding: 4em 0em;
 }
