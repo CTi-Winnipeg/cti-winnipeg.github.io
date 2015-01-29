@@ -36,7 +36,7 @@
           <li>
             <a href="{{ post.url }}" class="title">{{ post.title }}</a>
             <div class="categories">
-              in {% for category in post.categories %} <span class="category">{{ category }}</span> {% endfor %}
+              {{ post.author }} in {% for category in post.categories %} <span class="category">{{ category }}</span> {% endfor %}
             </div>
           </li>
         {% endfor %}
