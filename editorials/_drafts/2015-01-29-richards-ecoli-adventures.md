@@ -3,10 +3,11 @@ layout: post
 title: E.Coli Adventures in Winnipeg
 author: Richard Bennett
 author_email: richard.bennett.cti@gmail.com
+feature_img: url('/img/ecoli-feature.jpg')
 feature_tint: dark
 ---
 
-# AKA: When not to wear white underwear
+# _AKA_: When not to wear white underwear
 
 Paragraph
 
