@@ -242,6 +242,9 @@ blockquote > p {
 article.post a {
   font-family: "futura-pt", "HelveticaNeue", "Roboto", sans-serif !important;
   font-weight: 700 !important;
+  font-size: 1em;
+  font-size: 0.8em;
+  letter-spacing: -0.02em;
 }
 
 article.post h1 {
