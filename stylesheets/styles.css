@@ -103,6 +103,7 @@ header.index > div.wrapper {
 }
 
 header h1 {
+  font-weight: 700;
   font-size: 3.5em;
   margin-bottom: 0.5em;
 }
