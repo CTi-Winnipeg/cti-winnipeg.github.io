@@ -17,6 +17,7 @@ body:after{
 
 html {
   height: 100%;
+  -webkit-text-size-adjust: 100%; /* Mobile Safari landscape zoom fix */
 }
 
 body {
