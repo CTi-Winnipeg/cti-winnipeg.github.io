@@ -7,6 +7,14 @@
  * 
  */
 
+/* default background image preloader */
+body:after{
+    display:none;
+    content: url('../img/wpg_skyline35.jpg') url('../img/pattern-rice_paper.png');
+}
+
+
+
 html {
   height: 100%;
 }
