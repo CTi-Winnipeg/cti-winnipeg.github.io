@@ -4050,7 +4050,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar {
   position: relative;
-  min-height: 50px;
+  min-height: 100px;
   margin-bottom: 20px;
   border: 1px solid transparent;
 }
@@ -4159,8 +4159,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand {
   float: left;
-  height: 50px;
-  padding: 15px 15px;
+  height: 100px;
+  padding: 40px 15px;
   font-size: 18px;
   line-height: 20px;
 }
@@ -4181,9 +4181,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: relative;
   float: right;
   padding: 9px 10px;
-  margin-top: 8px;
+  margin-top: 33px;
   margin-right: 15px;
-  margin-bottom: 8px;
+  margin-bottom: 33px;
   background-color: transparent;
   background-image: none;
   border: 1px solid transparent;
@@ -4207,7 +4207,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-nav {
-  margin: 7.5px -15px;
+  margin: 20px -15px;
 }
 .navbar-nav > li > a {
   padding-top: 10px;
@@ -4246,15 +4246,15 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     float: left;
   }
   .navbar-nav > li > a {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
 }
 .navbar-form {
   padding: 10px 15px;
-  margin-top: 8px;
+  margin-top: 33px;
   margin-right: -15px;
-  margin-bottom: 8px;
+  margin-bottom: 33px;
   margin-left: -15px;
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
@@ -4344,20 +4344,20 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-bottom-left-radius: 0;
 }
 .navbar-btn {
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 33px;
+  margin-bottom: 33px;
 }
 .navbar-btn.btn-sm {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
 .navbar-btn.btn-xs {
-  margin-top: 14px;
-  margin-bottom: 14px;
+  margin-top: 39px;
+  margin-bottom: 39px;
 }
 .navbar-text {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 @media (min-width: 768px) {
   .navbar-text {
@@ -6569,5 +6569,97 @@ button.close {
  */
 body {
   padding-top: 20px;
+  font-family: "SanFrancisco";
+  font-weight: 300;
+}
+.navbar {
+  line-height: 100px;
+  text-transform: uppercase;
+  border: none;
+  border-bottom: 1px solid #efefef;
+  border-radius: 0;
+}
+.navbar .navbar-brand {
+  padding-left: 1px;
+  font-weight: 600;
+}
+.navbar-default {
+  background: none;
+}
+h1,
+h2,
+h3 {
+  font-weight: 100;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 2em;
+  text-transform: uppercase;
+}
+.clear {
+  opacity: 0 !important;
+}
+#tbl_trendsVSplan td {
+  text-align: center;
+}
+#tbl_trendsVSplan td:nth-child(1) {
+  color: #777;
+}
+#tbl_trendsVSplan td:nth-child(2) {
+  text-align: left;
+}
+#tbl_stockAlerts {
+  width: 100%;
+  /*
+  td:nth-child(2), td:nth-child(3) {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  td:nth-child(2) {
+    width: 45%;
+  }
+  td:nth-child(3) {
+    width: 30%;
+  }
+  td:nth-child(4) {
+    width: 15%;
+  }*/
+}
+#tbl_stockAlerts td:nth-child(1),
+#tbl_stockAlerts td:nth-child(5) {
+  width: 10%;
+  text-align: center;
+}
+#tbl_stockAlerts td:nth-child(1) {
+  color: #777;
+}
+thead {
+  font-weight: 600;
+  line-height: 30px;
+  color: #777;
+}
+.data-good {
+  color: #5cb85c;
+}
+.data-bad {
+  color: #d9534f;
+}
+.data-warn {
+  color: #f0ad4e;
+}
+.data-chart {
+  min-height: 200px;
+  background-color: rgba(119, 119, 119, .65);
+}
+footer {
+  padding: 20em 0;
+  font-size: .8em;
+  font-weight: 100;
+  text-align: center;
 }
 /*# sourceMappingURL=bootstrap.css.map */
