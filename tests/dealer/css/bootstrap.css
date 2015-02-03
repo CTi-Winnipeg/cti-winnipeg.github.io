@@ -6600,6 +6600,9 @@ h6 {
   margin-top: 2em;
   text-transform: uppercase;
 }
+.text-tiny {
+  font-size: .45em;
+}
 .clear {
   opacity: 0 !important;
 }
@@ -6655,6 +6658,14 @@ thead {
 .data-chart {
   min-height: 200px;
   background-color: rgba(119, 119, 119, .65);
+}
+.data-cost {
+  font-weight: 300;
+  color: #d9534f;
+}
+.data-value {
+  font-weight: 600;
+  color: #5cb85c;
 }
 footer {
   padding: 20em 0;
