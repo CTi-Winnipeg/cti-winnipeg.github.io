@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap -->
+  <link href="../bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- SanFrancisco - 100, 200, 300, 400, 600 -->
+  <link rel="stylesheet" href="fonts/sanfran/stylesheet.css">
+
+  <title>Dealer Dashboard</title>
+
+</head>
+<body>
+
+  <div class="container">
+
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6">
+            <span class="navbar-brand">Dealer Dashboard</span>
+          </div>
+          <div class="col-sm-6 text-right">
+            <img src="img/cti_logo.svg" width="50" valign="top" alt="CTi Winnipeg">
+          </div>
+        </div>
+      </div><!--/.container-fluid -->
+    </nav>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="container-fluid">
+          <h2>Sales Trends VS Plan</h2>
+          <div class="table-responsive">
+            <table id="tbl_trendsVSplan" class="table table-hover">
+              <thead>
+                <tr>
+                  <td></td>
+                  <td>Department / Category</td>
+                  <td>14 day</td>
+                  <td>7 day</td>
+                  <td></td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+                  </td>
+                  <td>Automotive / Wiper blades</td>
+                  <td class="data-good"><span class="glyphicon glyphicon-arrow-up data-good" aria-hidden="true"></span>30%</td>
+                  <td class="data-good"><span class="glyphicon glyphicon-arrow-up data-good" aria-hidden="true"></span>18%</td>
+                  <td>
+                    <a href="#" title="Add to this week's order"><span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span></a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+                  </td>
+                  <td>Sports / Ice skates</td>
+                  <td class="data-good"><span class="glyphicon glyphicon-arrow-up data-good" aria-hidden="true"></span>10%</td>
+                  <td class="data-good"><span class="glyphicon glyphicon-arrow-up data-good" aria-hidden="true"></span>13%</td>
+                  <td>
+                    <a href="#" title="Add to this week's order"><span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span></a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+                  </td>
+                  <td>Sports / Jerseys</td>
+                  <td>-</td>
+                  <td><span class="glyphicon glyphicon-arrow-down data-bad" aria-hidden="true"></span>4%</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
+                  </td>
+                  <td>Promo / Stress balls</td>
+                  <td><span class="glyphicon glyphicon-arrow-up data-good" aria-hidden="true"></span>1%</td>
+                  <td><span class="glyphicon glyphicon-arrow-up data-good" aria-hidden="true"></span>9%</td>
+                  <td>
+                    <a href="#" title="Add to this week's order"><span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="container-fluid">
+          <h2>Stock Alerts</h2>
+          <div class="table-responsive">
+            <table id="tbl_stockAlerts" class="table table-hover">
+              <thead>
+                <tr>
+                  <td></td>
+                  <td>Product</td>
+                  <td>Trigger</td>
+                  <td>Restock</td>
+                  <td></td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                  </td>
+                  <td>RAIN-X 18" Wiper Blades</td>
+                  <td class="data-bad">Alert - Stock depleted</td>
+                  <td class="data-good">this order</td>
+                  <td>
+                    <span class="glyphicon glyphicon-ok data-good" aria-hidden="true"></span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                  </td>
+                  <td>Nike Bauer Junior Ice Skates</td>
+                  <td class="data-warn">Alert - Stock low</td>
+                  <td class="data-good">this order</td>
+                  <td>
+                    <span class="glyphicon glyphicon-ok data-good" aria-hidden="true"></span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                  </td>
+                  <td>Reebok Authentic Winnipeg Jets Jersey</td>
+                  <td>Social - Local team success</td>
+                  <td>next order</td>
+                  <td>
+                    <a href="#" title="Add to this week's order"><span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span></a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                  </td>
+                  <td>Prestone Long Life Concentrated Engine Coolant</td>
+                  <td class="data-bad">Alert - Overstock</td>
+                  <td>in 42 days</td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="container-fluid">
+          <h2>YTD Revenue Goal Adherence</h2>
+          <div class="row">
+            <div class="col-xs-12 data-chart"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="container-fluid">
+          <h2>Stock Plan Adherence</h2>
+          <div class="row">
+            <div class="col-xs-12 data-chart"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="container-fluid">
+        <h2>YTD Revenue Goal Adherence</h2>
+        <div class="table-responsive">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <td></td>
+                <td>Product</td>
+                <td>Trigger</td>
+                <td>Forecast</td>
+                <td>Current</td>
+                <td>Ordering</td>
+                <td>MSRP</td>
+                <td>Cost/unit</td>
+                <td>Margin</td>
+                <td>Value</td>
+                <td></td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <input type="checkbox" checked>
+                </td>
+                <td>RAIN-X 18" Wiper blades</td>
+                <td class="data-bad">Alert - Stock depleted</td>
+                <td>30</td>
+                <td>0</td>
+                <td>30</td>
+                <td>$19.99</td>
+                <td>$5.47</td>
+                <td>73%</td>
+                <td>$435.60</td>
+                <td>
+                  <a href="#" title="Flag as a 'bad call'">
+                    <span class="glyphicon glyphicon-thumbs-down data-warn" aria-hidden="true"></span>
+                  </a>&nbsp;
+                  <a href="#" title="Flag as a 'good catch'">
+                    <span class="glyphicon glyphicon-thumbs-up data-good" aria-hidden="true"></span>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="checkbox" checked>
+                </td>
+                <td>MotoMaster Block heater</td>
+                <td>Climate - Demand prediction</td>
+                <td>60</td>
+                <td>9</td>
+                <td>50</td>
+                <td>$129.99</td>
+                <td>$76.70</td>
+                <td>41%</td>
+                <td>$2664.50</td>
+                <td>
+                  <a href="#" title="Flag as a 'bad call'">
+                    <span class="glyphicon glyphicon-thumbs-down data-warn" aria-hidden="true"></span>
+                  </a>&nbsp;
+                  <a href="#" title="Flag as a 'good catch'">
+                    <span class="glyphicon glyphicon-thumbs-up data-good" aria-hidden="true"></span>
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="checkbox" checked>
+                </td>
+                <td>Nike Bauer Junior Ice Skates - Size 3</td>
+                <td class="data-warn">Alert - Stock low</td>
+                <td>3</td>
+                <td>1</td>
+                <td>2</td>
+                <td>$149.99</td>
+                <td>$123.45</td>
+                <td>18%</td>
+                <td>$246.90</td>
+                <td>
+                  <a href="#" title="Flag as a 'bad call'">
+                    <span class="glyphicon glyphicon-thumbs-down data-warn" aria-hidden="true"></span>
+                  </a>&nbsp;
+                  <a href="#" title="Flag as a 'good catch'">
+                    <span class="glyphicon glyphicon-thumbs-up data-good" aria-hidden="true"></span>
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="container">
+    Copyright &copy; 2015 - Canadian Tire Innovations
+  </footer>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/core.js"></script>
+  <script type="text/javascript">
+
+  $(function() {
+    // Doc is ready, so init app
+    app.initialize();
+  });
+
+  </script>
+
+</body>
+</html>
