@@ -306,6 +306,7 @@ article.post p {
 article.post > p:hover {
   opacity: 1;
   border-left: 0.1em solid #e5e5e5;
+  color: #373737;
 }
 
 article.post > p > img {
