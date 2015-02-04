@@ -9,7 +9,7 @@ feature_tint: dark
 
 # Preface
 
-These are not my thoughts.  Although I may think and believe them to the core of me, they are not my own.  These are the principles suggested by one of the most inspiring designer of our time.  His name is _Dieter Rams_.
+These are not my thoughts.  Although I may think and believe them to the core of me, they are not my own.  These are the principles suggested by one of the most inspiring designer of our time.  His name is **Dieter Rams**.
 
 And if you don't know who he is, then surely you're familiar with his work, or the work of people who have been inspired by him.  The original _Apple iPod_, inspired in part by the 1958 Braun T3 transistor radio for example, is one such thing.
 
