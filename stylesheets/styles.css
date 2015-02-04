@@ -301,7 +301,7 @@ article.post p {
   transition: all 300ms ease-in-out;
   border-left: 0.1em solid #fff;
   /*opacity: 0.65;*/
-  color: #999;
+  color: #777;
 }
 article.post > p:hover {
   opacity: 1;
