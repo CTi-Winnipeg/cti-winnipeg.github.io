@@ -3,17 +3,17 @@ layout: post
 title: Dieter Rams - Ten Principles for Good Design
 author: Richard Bennett
 author_email: richard.bennett.cti@gmail.com
-feature_img: url('/img/rams-SK-4-record-player-1956.jpg')
+feature_img: url('/img/rams/rams-SK-4-record-player-1956.jpg')
 feature_tint: dark
 ---
 
 # Preface
 
-These are not my thoughts.  Although I may think and believe them to the core of me, they are not my own.  These are the principles suggested by one of the most inspiring designer of our time.  His name is **Dieter Rams**.
+These are not my thoughts.  Although I may support and believe them to the core of me, they are not my own.  These are the principles suggested by one of the most inspiring designer of our time.  His name is **Dieter Rams**.
 
 And if you don't know who he is, then surely you're familiar with his work, or the work of people who have been inspired by him.  The original _Apple iPod_, inspired in part by the 1958 Braun T3 transistor radio for example, is one such thing.
 
-![1958 Braun T3](http://cti.io/img/rams-1958BraunT3.jpg "1958 Braun T3")
+![1958 Braun T3](http://cti.io/img/rams/rams-1958BraunT3.jpg "1958 Braun T3")
 
 Look familiar?  Dieter Rams on the right, and the Braun T3 on the left (no, it isn't an old iPod).
 
@@ -112,8 +112,8 @@ Be pure.  Be simple.
 
 # The work of **Dieter Rams**
 
-![01](http://cti.io/img/rams-01.jpg "Braun SK 4 Phonosuper (1956)")
-![02](http://cti.io/img/rams-02.jpg "Braun ABR 21 Signal Radio (1978)")
-![03](http://cti.io/img/rams-03.jpg "Braun KF 20 Aromaster (1972)")
+![01](http://cti.io/img/rams/rams-01.jpg "Braun SK 4 Phonosuper (1956)")
+![02](http://cti.io/img/rams/rams-02.jpg "Braun ABR 21 Signal Radio (1978)")
+![03](http://cti.io/img/rams/rams-03.jpg "Braun KF 20 Aromaster (1972)")
 
 
