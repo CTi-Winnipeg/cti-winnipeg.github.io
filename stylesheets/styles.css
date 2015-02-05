@@ -221,7 +221,12 @@ header.post {
 header.post.featureImage {
   background-color: #f5f5f5;
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center center;
+}
+header.post.featureRepeat {
+  background-repeat: repeat;
+  background-position: top left;
 }
 
 header.post.dark {
