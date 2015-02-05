@@ -227,6 +227,7 @@ header.post.featureImage {
 header.post.featureRepeat {
   background-repeat: repeat;
   background-position: top left;
+  background-size: initial;
 }
 
 header.post.dark {
