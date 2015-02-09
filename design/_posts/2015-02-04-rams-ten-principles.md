@@ -5,6 +5,7 @@ author: Richard Bennett
 author_email: richard.bennett.cti@gmail.com
 feature_img: url('/img/rams/rams-SK-4-record-player-1956.jpg')
 feature_tint: dark
+excerpt: A look at the principles of design, according to one of the greatest designers of our time.
 ---
 
 # Preface

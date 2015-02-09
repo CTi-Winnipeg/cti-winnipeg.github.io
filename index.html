@@ -37,7 +37,10 @@
             <a href="{{ post.url }}" class="title">{{ post.title }}</a>
             <div class="categories">
               {{ post.author }}, in {% for category in post.categories %} <span class="category">{{ category }}</span> {% endfor %}
-            </div>
+            </div>{% if post.excerpt %}
+            <div class="excerpt">
+              {{ post.excerpt | strip_html }}
+            </div>{% endif %}
           </div>
         </li>
       {% endfor %}
