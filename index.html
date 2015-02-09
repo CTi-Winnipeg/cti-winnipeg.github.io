@@ -29,25 +29,27 @@
       <h2>Moving life in Canada forward.</h2>
     </div>
   </header>
-  <div class="wrapper">
-    <section class="pagelist">
-      <ul>
-        {% for post in site.posts %}
-          <li>
+  <section class="pagelist">
+    <ul>
+      {% for post in site.posts %}
+        <li class="post{% if post.feature_tint == 'dark' %} dark{% endif %}{% if post.feature_img %} featureImage{% endif %}{% if post.feature_repeat %} featureRepeat {% endif %}" style="{% if post.feature_img %} background-image:{{ post.feature_img }};{% endif %}">
+          <div class="wrapper">
             <a href="{{ post.url }}" class="title">{{ post.title }}</a>
             <div class="categories">
               {{ post.author }}, in {% for category in post.categories %} <span class="category">{{ category }}</span> {% endfor %}
             </div>
-          </li>
-        {% endfor %}
-      </ul>
-    </section>
-    <footer>
-      <p><a href="https://cti-winnipeg.github.io/"><img src="{{ site.root }}/img/cti_logo.svg" alt="CTi Winnipeg" width="50" valign="absmiddle"></a></p>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+  <footer>
+    <div class="wrapper">
+      <p><a href="http://cti.io/"><img src="{{ site.root }}/img/cti_logo.svg" alt="CTi Winnipeg" width="50" valign="absmiddle"></a></p>
       <p><small>CTi, Winnipeg</small></p>
       <p><small><a href="https://github.com/CTi-Winnipeg">View our GitHub Profile</a></small></p>
-    </footer>
-  </div>
+    </div>
+  </footer>
 
 
   <script src="javascripts/scale.fix.js"></script>
