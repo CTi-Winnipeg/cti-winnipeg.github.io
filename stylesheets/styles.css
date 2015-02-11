@@ -133,8 +133,7 @@ section.pagelist > ul {
 
 section.pagelist > ul li.post {
   margin: 0;
-  padding: 14em 0em;
-  opacity: 0.45;
+  padding: 12% 0em;
   -webkit-transition: all 300ms ease-in-out;
   -moz-transition: all 300ms ease-in-out;
   -ms-transition: all 300ms ease-in-out;
@@ -167,12 +166,11 @@ section.pagelist > ul li.post.pattern {
 }
 
 section.pagelist > ul li:hover {
-  opacity: 1;
   /*border-bottom: 0.1em solid #eee;*/
 }
 
 section.pagelist > ul li:first-child {
-  padding: 20em 0em;
+  padding: 20% 0em;
 }
 section.pagelist > ul li:first-child a.title {
   font-size: 3em;
@@ -256,15 +254,6 @@ section.pagelist > ul li:first-child .excerpt {
 footer {
   padding: 10em 0em;
   text-align: center;
-  opacity: 0.55;
-  -webkit-transition: all 300ms ease-in-out;
-  -moz-transition: all 300ms ease-in-out;
-  -ms-transition: all 300ms ease-in-out;
-  -o-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
-}
-footer:hover {
-  opacity: 1;
 }
 
 footer a {
