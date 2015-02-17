@@ -3,6 +3,7 @@ layout: post
 title: 'Psychology, and Debunking Everything'
 author: Jeff Doering
 author_email: jeffrey.doering@cantire.com
+author_avatarURL: http://cti.io/img/avatars/jeffdoering.png
 feature_img: url('/img/psychology_gears.jpg')
 feature_tint: dark
 excerpt: Not everything you think you know is true
