@@ -26,13 +26,13 @@ layout: default
   {% endif %}
 <div class="wrapper">
   <nav class="bottom">
-    <a href="https://cti-winnipeg.github.io/"><img src="{{ site.root }}/img/cti_logo.svg" alt="Back to Home" title="Back to Home" width="50" valign="absmiddle"></a>
+    <a href="{{ site.url }}"><img src="{{ site.root }}/img/cti_logo.svg" alt="Back to Home" title="Back to Home" width="50" valign="absmiddle"></a>
     {% if page.next %}<a class="next" href="{{ page.next.url }}">{{ page.next.title }}</a>{% endif %}
     {% if page.previous %}<a class="previous" href="{{ page.previous.url }}">{{ page.previous.title }}</a>{% endif %}
   </nav>
   <footer>
     <p></p><p></p>
     <p><small>CTi, Winnipeg</small></p>
-    <p><small><a href="{{ site.url }}">View our GitHub Profile</a></small></p>
+    <p><small><a href="https://github.com/CTi-Winnipeg">View our GitHub Profile</a></small></p>
   </footer>
 </div>
