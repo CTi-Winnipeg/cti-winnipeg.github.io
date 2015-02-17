@@ -5,10 +5,8 @@ author: Jeff Doering
 author_email: jeffrey.doering@cantire.com
 feature_img: url('/img/psychology_gears.jpg')
 feature_tint: dark
-excerpt: A better message than not everything you think you know about psychology is true might be not everything you think you know is true.
+excerpt: Not everything you think you know is true
 ---
-
-## Psychology, and debunking everything
 
 
 Contrary to popular belief, the Mozart effect - the idea that listening to classical music temporarily increases your IQ - *is a myth*, the idea that left-handed people are more creative *is a myth*, and the idea that most stereotypical differences between mens’ an women’s abilities in math, writing, and the like, are actually very small - large gender differences are *also a myth*. Ben Ambridge, a psychology at the University of Liverpool recently delivered a TED Talk: Ten Myths About Psychology, Debunked. He shed light on the above, among other examples, in hope of shedding common misperceptions about psychology.
