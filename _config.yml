@@ -5,7 +5,7 @@ relative_permalinks: true
 # Setup
 title:            CTi Winnipeg
 tagline:          Canadian Tire Innovations
-url:              http://cti.to
+url:              http://cti.io
 paginate:         1
 baseurl:          /
 excerpt_separator: ""
